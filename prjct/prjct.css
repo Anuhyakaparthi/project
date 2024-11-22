@@ -1,0 +1,147 @@
+.header-container{
+    display: flex; 
+    align-items: center;
+}
+.header-1{
+    display: flex; 
+    flex-grow: 1;
+}
+.ul-1, .ul-2{
+    display: flex;
+    padding: 0; 
+    margin: 0;
+}
+.header-2{
+    width: 117px; 
+    height: 55px; 
+    border: 0;
+    align-items: center; 
+    margin-right: 250px;
+}
+.header-3{
+    display: flex; 
+    margin: 0;
+}
+.li-1, .li-2, .li-3, .li-4, .li-5, .li-6, .li-7, .li-8, .li-9{
+    padding-right: 20px;
+}
+.collection-container{
+    position: relative;
+    background-image: url('https://websitedemos.net/blingg-jewelry-store-04/wp-content/uploads/sites/1119/2022/08/hero.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    align-items: flex-start;
+    height: 100vh; 
+    color: #000; 
+}
+.collection-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 600px;
+} 
+.collection-content p { 
+    font-size: 1rem;
+    margin-bottom: 1rem;
+} 
+.logo-row-1, .logo-row-2{
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 30px;
+}
+img{
+    border: 1px solid black; 
+    width: 20vw;
+}
+.div{
+    
+ }
+ .img-1{
+    width: 18rem;
+ }
+ .h5, .para{
+    text-align: center;
+    margin: 0;
+ }
+ .div, .image-parent, .content-parent{
+    display: flex;
+    flex-direction: column;
+ }
+ .middle-part{
+    display: flex;
+    justify-content: space-between;
+ }
+.img-parent{
+    height: 128vh;
+    width: 100vw;  
+}   
+ .img-girl{
+  background-image:url(https://websitedemos.net/blingg-jewelry-store-04/wp-content/uploads/sites/1119/2022/08/bg-01.jpg);
+  width:52%;
+  height: 100%;
+  margin-left: 400px;
+  display: flex;  
+}
+.img-ring{
+  position: relative;
+  top: 150px;
+  right: 150px;
+   height: 100%;
+  width: 100%;
+}
+.content-parent{
+  display: flex;
+  justify-content: flex-start;
+}
+.card img{
+    display:flex; 
+    justify-content: space-around;
+     border: none; 
+     width: 100%;
+     height:auto;
+}
+.carts{
+    display: flex;
+    align-items: center;
+    width: 98vw;
+}
+.element-img{
+    border: none;
+    width: 8vw;
+}
+.h5, .p{
+    text-align: center;
+}
+footer {
+   display: flex;
+   width: 100%;
+   gap: 500px;
+    padding: 10PX;
+}
+.footer-1{
+    display: flexbox;
+    padding: 20px 4px; 
+    justify-content: center; 
+    border: 0%;
+}
+.footer-2,.footer-3,.footer-4{
+    display: flexbox;
+    padding: 20px 80px;
+   
+}
+.footer-1,.footer-2,.footer-3,.footer-4{
+    text-decoration: none;
+    color: #000;
+}
+.footer-1 a,.footer-2 a,.footer-3 a,.footer-4 a
+{
+    color: #000;
+}
+.line{
+    color: #101010;
+    margin: 0;
+}
+.p-1{
+    display: flex;
+    text-align: center;
+}
